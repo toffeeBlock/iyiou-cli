@@ -1,4 +1,7 @@
-## 亿欧同学
+=======
+## iyiou-vue
+企业级脚手架
+
 
 ### 项目架构
 
@@ -22,18 +25,19 @@
 │   ├── webpack.prod.config.js  // 生产环境配置
 ├── config                      // 配置
 │   ├── index.js                // api baseURL 配置 及 开发环境下跨域代理 proxy 配置
-├── dist                        // 生产环境目录
-├── node_modules
 ├── package.json
 ├── public                      // 开发环境主目录
+│   ├── api                     // 所有请求
 │   ├── assets                  // 静态资源文件
 │       ├── css                 // 样式文件
 │       ├── images              // 图片资源
 │   ├── components              // 组件
+│   ├── layout                  // 全局Layout组件
 │   ├── router                  // 前端路由配置
 │   ├── store                   // 状态管理
 │   ├── util                    // 公用方法
 │   ├── views                   // vue页面
+│   ├── App.vue                 // 根vue文件
 │   ├── index.html              // 入口页面
 │   ├── main.js                 // 入口文件
 ├── .babelrc                    // babel配置
