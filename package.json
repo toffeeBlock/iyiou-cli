@@ -3,9 +3,6 @@
   "version": "1.0.1",
   "description": "vue",
   "main": "index.js",
-  "files": [
-    "app"
-  ],
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.config.js",
     "build": "webpack --config build/webpack.prod.config.js",
@@ -13,9 +10,6 @@
     "start": "live-server ./dist"
   },
   "author": "wanghaifeng@iyiou.com",
-  "keywords": [
-    "yeoman-generator"
-  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.5",
